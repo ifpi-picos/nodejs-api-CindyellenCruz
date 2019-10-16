@@ -1,21 +1,21 @@
 {
-  "name": "trabalhonode",
+  "name": "nodejs-api-natanael2002",
   "version": "1.0.0",
-  "description": "nodejs-api-JonasFortes12 created by GitHub Classroom",
+  "description": "nodejs-api-Natanael2002 created by GitHub Classroom",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ifpi-picos/nodejs-api-JonasFortes12.git"
+    "url": "git+https://github.com/ifpi-picos/nodejs-api-Natanael2002.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ifpi-picos/nodejs-api-JonasFortes12/issues"
+    "url": "https://github.com/ifpi-picos/nodejs-api-Natanael2002/issues"
   },
-  "homepage": "https://github.com/ifpi-picos/nodejs-api-JonasFortes12#readme",
+  "homepage": "https://github.com/ifpi-picos/nodejs-api-Natanael2002#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1"

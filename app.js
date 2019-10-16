@@ -1,9 +1,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const routers = require('./node_modules');
-
 const app = express();
-app.use(bodyParser.jason());
-app.use('/', routers);
+const routes = require('./routes');
 
-app.listen(3000, () => console.log('App Online...'));
+
+app.use(bodyParser.json());
+app.use('/', routes);
+app.listen(3001,()=>console.log('app online ...'));
