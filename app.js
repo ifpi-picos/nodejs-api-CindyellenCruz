@@ -1,9 +1,12 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const app = express();
 const routes = require('./routes');
+const conectaMongoDB = require('./config/mongodb');
 
 
+const app = express();
 app.use(bodyParser.json());
 app.use('/', routes);
-app.listen(3001,()=>console.log('app online ...'));
+conectaMongoDB();
+
+app.listen(3000,()=>console.log('app online ...'));

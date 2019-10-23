@@ -1,8 +1,8 @@
-const mongoose = require('express');
+const mongoose = require('mongoose');
 
 function conectaMongoDB() {
     mongoose.connect(
-        'mangadb://webuser:web12345@ds135128.mlab.com:35128/aula-web',
+        'mongodb://webuser:web12345@ds135128.mlab.com:35128/aula-web',
         {useUnifiedTopology: true, useNewUriParser: true}
     );
     const db = mongoose.connection;
